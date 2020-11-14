@@ -1,0 +1,22 @@
+{
+    "name": "ithauaz/components",
+    "description": "[NOT EXT] Các thành phần JavaScript có thể sử dụng lại cho tiện ích mở rộng Flarum của bạn",
+    "keywords": ["flarum", "ithauaz"],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+      "flarum/core": "^0.1.0-beta.14"
+    },
+    "authors": [
+      {
+        "name": "Nguyễn Văn Hậu",
+        "email": "ithauaz@gmail.com",
+        "role": "Developer"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Ithauaz\\Components\\": "src/"
+      }
+    }
+  }
