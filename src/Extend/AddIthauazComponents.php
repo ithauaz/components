@@ -7,7 +7,7 @@
 	* Facebook : https://www.facebook.com/ithauaz/
 	*/
 
-namespace Ithauaz\Components\Extend;
+namespace Iris\Components\Extend;
 
 use Flarum\Extend\ExtenderInterface;
 use Flarum\Extension\Extension;
@@ -15,7 +15,7 @@ use Flarum\Frontend\Assets;
 use Flarum\Frontend\Compiler\Source\SourceCollector;
 use Illuminate\Contracts\Container\Container;
 
-class AddIthauazComponents implements ExtenderInterface
+class AddIrisComponents implements ExtenderInterface
 {
     public static $initialized = false;
 
@@ -34,7 +34,7 @@ class AddIthauazComponents implements ExtenderInterface
                 });
                 $sources->addFile(__DIR__.'/../../js/dist/admin.js');
                 $sources->addString(function () {
-                    return "flarum.extensions['ithauaz-components']=module.exports";
+                    return "flarum.extensions['iris-components']=module.exports";
                 });
             });
         });
