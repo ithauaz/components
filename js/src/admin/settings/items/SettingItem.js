@@ -8,7 +8,7 @@ export default class SettingItem extends Component {
 
         if (typeof this.attrs.setting !== 'function') {
             throw new Error(
-                '[ithauaz/components] SettingsModal - thuộc tính "setting" phải là một hàm, cụ thể hơn là phương thức SettingsModal setting() được truyền cho thuộc tính modal \'s items.'
+                '[iris/components] SettingsModal - thuộc tính "setting" phải là một hàm, cụ thể hơn là phương thức SettingsModal setting() được truyền cho thuộc tính modal \'s items.'
             );
         }
     }

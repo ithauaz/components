@@ -12,7 +12,7 @@ export default class SettingsModal extends FlarumSettingsModal {
 
         if (this.attrs.items && typeof this.attrs.items !== 'function') {
             throw new Error(
-                '[ithauaz/components] SettingsModal - "items" thuộc tính phải là một hàm chấp nhận phương thức setting() để chuyển cho tất cả các phần tử con của SettingItem.'
+                '[iris/components] SettingsModal - "items" thuộc tính phải là một hàm chấp nhận phương thức setting() để chuyển cho tất cả các phần tử con của SettingItem.'
             );
         }
     }

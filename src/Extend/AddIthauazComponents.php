@@ -1,11 +1,5 @@
 <?php
 
-   /*
-    * Bản Quyền Thuộc Hậu Nguyễn 
-	* Được Viết Bởi FOF Thanks You Tác Giả 
-	* Email : ithauaz@gmail.com 
-	* Facebook : https://www.facebook.com/ithauaz/
-	*/
 
 namespace Iris\Components\Extend;
 
