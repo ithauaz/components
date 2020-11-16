@@ -1,7 +1,7 @@
 {
-    "name": "ithauaz/components",
+    "name": "vniris/components",
     "description": "[NOT EXT] Các thành phần JavaScript có thể sử dụng lại cho tiện ích mở rộng Flarum của bạn",
-    "keywords": ["flarum", "ithauaz"],
+    "keywords": ["flarum", "vniris"],
     "type": "library",
     "license": "MIT",
     "require": {
@@ -16,7 +16,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "Ithauaz\\Components\\": "src/"
+        "Iris\\Components\\": "src/"
       }
     }
   }
